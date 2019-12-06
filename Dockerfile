@@ -11,4 +11,4 @@ WORKDIR /test
 
 
 # Will run this
-ENTRYPOINT raku -v && zef install --deps-only . && zef test .
+ENTRYPOINT raku -v && zef install --deps-only --force-test . && zef test .
