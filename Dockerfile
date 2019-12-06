@@ -1,5 +1,5 @@
 FROM jjmerelo/alpine-perl6:latest
-LABEL version="1.0" maintainer=Fritz Zaucker <fritz.zaucker@oetiker.ch>"
+LABEL version="1.0" maintainer="Fritz Zaucker <fritz.zaucker@oetiker.ch>"
 
 RUN apk add build-base
 # Set up dirs
