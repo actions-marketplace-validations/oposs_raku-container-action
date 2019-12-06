@@ -1,6 +1,6 @@
-name: 'Raku Container Action'
+name: 'Raku Container Action with compiler'
 description: 'Container action using Raku'
-author: 'JJ'
+author: 'Fritz Zaucker'
 runs:
   using: 'docker'
   image: 'Dockerfile'
