@@ -29,6 +29,9 @@ RUN apk update && apk upgrade \
 # WORKDIR /root
 # ENTRYPOINT ["perl6"]
 
+RUN psql --command='create database agrammon_test'
+RUN psql --dbname=agrammon_test --command='create extension pgcrypto'
+
 RUN mkdir /test
 VOLUME /test
 WORKDIR /test
